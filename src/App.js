@@ -1,12 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Loading } from './components/loading/loading.main';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="background">
+
+
+      <header className="App=header">
+        <Loading color="white"/>
+      </header>
+
+      <body className="body">
         <p>
           This is a personal website about Tom
         </p>
@@ -18,7 +23,9 @@ function App() {
         >
           My Github Page
         </a>
-      </header>
+      </body>
+
+
     </div>
   );
 }
