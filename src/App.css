@@ -1,45 +1,168 @@
-
-.background {
-  background-color: #282c34;
-  min-height: 100vh;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.bg-sec{
+  background-image: url(./images/name-sec-bg.jpg);
+  background-size: cover;
+  height: 100vh;
   width: 100vw;
-  padding:  20px;
-
-  background-color: rgb(3, 71, 71);
-
+  position: fixed;
+  z-index: -1;
 }
 
-.App-header-logo {
-  width: 25vw;
-  display: flex;
+.name-sec {
+  height: 100vh;
+  width: 100vw;
 
-}
-
-.App-header-text{
-  width: 50vw;
-  display: flex;
-  justify-content: center;
-
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.body {
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  padding: 50px;
+  background-color: rgba(148, 134, 134, 0.5);
+
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold;
 }
 
+.info-sec {
+  height: 100vh;
+  width: 100vw;
+
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  color: rgb(8, 102, 102);
+  font-size: 20px;
+
+  background-color: rgba(245, 218, 184, 0.99);
+}
+
+.image-cropper {
+  height: auto;
+  position: relative;
+
+  max-width: 200px;
+  
+}
+
+.image-cropper img{
+  display: block;
+  height: auto;
+  width: 100%; 
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;  
+  
+  border: 7px solid black;
+}
+
+.edu-sec {
+  
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.exp-sec {
+  background-color: rgba(245, 218, 184, 0.99);
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project-sec {
+  
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.proj-title {
+  color: blue;
+  font-size: 40px;
+}
+
+.proj-link {
+  
+  color: black;
+  font-size: 40px;
+}
+
+.contact-link {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.contact-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(83, 81, 81);
+  color: white;
+
+  height: 100vh;
+
+  padding: 50px;
+
+}
+
+.small-headline{
+  color: rgb(8, 102, 102);
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold;
+}
+
+.headline {
+  color: rgb(8, 102, 102);
+  font-size: 100px;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold;
+}
+
+.text {
+  
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.col-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.find-color {
+  color: rgb(13, 182, 204)
+}
