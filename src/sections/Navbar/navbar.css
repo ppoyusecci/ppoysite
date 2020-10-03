@@ -24,6 +24,8 @@
     line-height: 1.5em;
     text-transform: uppercase;
     color: #0c8488;
+
+    z-index: 99;
   }
 
   .showColor {
