@@ -13,7 +13,7 @@ export default class InfoSec extends React.PureComponent {
 
           <div className="row-container" style={{alignItems: 'center', justifyContent:'space-evenly',  width: '75%', height:"45%"}}>
             
-            <div className="col-container" style={{padding: "30px", width:'60%', height: '100%', color: "black", alignItems:'flex-start', justifyContent: 'space-evenly', backgroundColor: 'rgba(250, 250, 255, 0.9)'}}>
+            <div className="col-container passage">
               <div className="small-headline" style={{paddingBottom: '5vh'}} >Developer, Machine learning enthusiast</div>
 
               <div className='infoText'>Tom was graduated from The Hong Kong University of Science and Technology with a degree in 

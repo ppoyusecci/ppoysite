@@ -18,6 +18,33 @@
   font-weight: bold;
 }
 
+.name {
+  width: 50vw;
+  min-width: 100px;
+
+  height: 400px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+
+  flex-wrap: wrap;
+
+}
+
+.name .word {
+  display: flex;
+  flex-direction: row;
+}
+
+.name .word div {
+  height: 50px;
+
+}
+
+
 .t {
   color: rgb(39, 92, 136)
 }
@@ -28,7 +55,6 @@
 
 .m{
   color: rgb(218, 86, 86)
-  
 }
 
 .c {

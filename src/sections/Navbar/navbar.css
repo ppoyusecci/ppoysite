@@ -1,5 +1,12 @@
 .navbar-text {
   color: white;
+
+  min-width: 30px;
+  width: 150px ;
+  
+  overflow: hidden;
+
+  white-space: nowrap;
 }
 
 .tIcon:hover {
@@ -10,8 +17,10 @@
 
     position: fixed;
 
-    width: 100%;
+    width: 100vw;
     height: 5vh;
+
+    overflow: hidden;
   
     display: flex;
     align-items: center;

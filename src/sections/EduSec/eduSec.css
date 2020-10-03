@@ -29,20 +29,28 @@
   top: 10%;
   right: 0px;
 
-  height: 230px;
-  width: 900px; 
+  height: 280px;
+  max-width: 900px; 
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 
   background-color: rgba(88, 4, 4, 0.9);
   color: white;
+
+  overflow: auto;
   
   transition: all .5s ease-in-out;
 
   visibility: hidden;
 }
+
+@media screen and (max-width: 900px) {
+  .edu-degree-info{
+    width: 300px;
+  }
+  }
 
 .edu-in-view {
   visibility: visible;

@@ -26,8 +26,8 @@ export default class Navbar extends React.PureComponent {
           </div>
 
         {
-          this.state.clicked? <div style={{width: '100%', display: 'flex', alignItems:'center', justifyContent: 'flex-end', paddingRight: '50px'}}>
-                                    <div style={{}}>
+          this.state.clicked? <div style={{width: '75%', display: 'flex', alignItems:'center', justifyContent: 'flex-end', paddingRight: '50px'}}>
+
                                       <a
                                       className="text navbar-text"
                                       href="#infoSec"
@@ -72,7 +72,6 @@ export default class Navbar extends React.PureComponent {
                                       >
                                       Contact
                                       </a>
-                                    </div>
 
 
 
