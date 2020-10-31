@@ -6,7 +6,6 @@ import { Navbar, NameSec, InfoSec, EduSec, ExpSec, ProjSec, ContectSec } from '.
 const  app = 
 <div className="largest-container">
         <Navbar />
-        <NameSec />
         <InfoSec />
         <ExpSec />
         <ProjSec />

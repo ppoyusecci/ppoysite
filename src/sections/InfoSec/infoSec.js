@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import "./infoSec.css"
 import sp from '../../images/self-pic.jpg';
+import { NameSec } from '../';
 
 export default function InfoSec() {
 
@@ -10,18 +11,19 @@ export default function InfoSec() {
       function update(){ 
           var pos = bg.getBoundingClientRect().top; 
           var height = bg.clientHeight;
-          var new_heigh = '100vw ' + 3*height + 'px';
-          bg.style.backgroundSize = new_heigh;
 
-          var adjust = 0 +  Math.round((pos - height) * velocity) + 'px';
+          var adjust = 0 +  Math.round((pos - height + 2400) * velocity) + 'px';
           bg.style.backgroundPositionY = adjust; 
       };
 
+      update();
       window.addEventListener('scroll', update);
     })
 
     return (
         <div className="info-sec section">
+          
+          <NameSec />
 
           <div className="headline">Tom, Data Scientist</div>
 

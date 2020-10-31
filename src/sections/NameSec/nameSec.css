@@ -16,6 +16,8 @@
   font-size: 100px;
   font-family: 'Open Sans', sans-serif !important;
   font-weight: bold;
+
+  z-index: 1;
 }
 
 .name {
